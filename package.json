@@ -1,0 +1,7 @@
+{
+  "name": "fairscan",
+  "private": true,
+  "description": "PWA для рекрутеров на стендах ярмарок вакансий",
+  "packageManager": "pnpm@10.17.1",
+  "scripts": {}
+}
