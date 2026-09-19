@@ -2,7 +2,6 @@
  * Решение рекрутера о посетителе.
  * Меняется, если рекрутер передумал.
  */
-
 export type MarkStatus = 'interested' | 'invited' | 'rejected';
 
 /**
@@ -15,6 +14,6 @@ export type Mark = {
     visitorId: string;
     status: MarkStatus;
     note?: string;
-    createdAt: string;
-    updatedAt: string;
+    markedAt: string;
+    editedAt: string;
 };

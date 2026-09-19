@@ -10,13 +10,11 @@ importers:
 
   apps/api: {}
 
-  apps/shared: {}
-
   apps/web:
     dependencies:
       '@fairscan/shared':
         specifier: workspace:*
-        version: link:../shared
+        version: link:../../packages/shared
       react:
         specifier: ^19.2.8
         version: 19.3.0
@@ -72,6 +70,8 @@ importers:
       vite:
         specifier: ^8.3.0
         version: 8.3.0(@types/node@24.13.6)
+
+  packages/shared: {}
 
 packages:
 
