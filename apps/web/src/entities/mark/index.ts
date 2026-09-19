@@ -1,0 +1,1 @@
+export type { LocalMark, SyncState } from './model/types';
